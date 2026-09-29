@@ -4,7 +4,7 @@
 
 # Create a fuction that takes the user's name.
 def greet_user(name): 
-  print(f"Hello, {name}! Welcome abroad.")
+  print("Hello,", name + "! Welcome aboard.")
 
 # Ask the user to enter their name.
 name = input("Enter your name: ")
