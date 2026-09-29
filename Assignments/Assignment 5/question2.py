@@ -12,15 +12,15 @@ def rectangle_stats(length, width):
   # Return both results.
   return area, perimeter
 
-# Ask the user for the length,
-length = int("Enter the length: ")
+# Ask the user for the length.
+length = int(input("Enter the length: "))
 
 # ASk the user for the width.
-width = int("Enter the width: ")
+width = int(input("Enter the width: "))
 
 # Call the fuction the store both results.
 area, perimeter = rectangle_stats(length, width)
 
-# Print the area and perimeter.
-print(f"Area: {area:.2f}")
-print(f"Perimeter: {perimeter:.2f}")
+# Print the results.
+print("Area: ", area)
+print("Perimeter: ", perimeter)
