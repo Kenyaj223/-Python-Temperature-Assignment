@@ -6,14 +6,11 @@ def check_number(number):
   # Divide the number by 2.
   half = number / 2
 
-# Multiply the result by 2.
-check = half * 2
-
 # Check if the result is the same as the original number.
-if half == int(half):
-  return "even"
-else: 
-  return "odd"
+    if half == int(half):
+      return "even"
+    else:
+      return: "odd"
 
 # Ask the user to enter a whole number.
 number = int(input("Enter a whole number: "))
