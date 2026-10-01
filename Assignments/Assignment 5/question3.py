@@ -7,7 +7,7 @@ def check_number(number):
   half = number / 2
 
 # Check if the result is the same as the original number.
-    if half == int(half):
+  if half == int(half):
       return "even"
     else:
       return: "odd"
