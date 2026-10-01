@@ -10,9 +10,9 @@ def check_number(number):
 check = half * 2
 
 # Check if the result is the same as the original number.
-if check == number:
+if half == int(half):
   return "even"
-else:
+else: 
   return "odd"
 
 # Ask the user to enter a whole number.
