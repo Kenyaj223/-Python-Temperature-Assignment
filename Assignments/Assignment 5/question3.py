@@ -10,7 +10,7 @@ def check_number(number):
   if half == int(half):
       return "even"
   else:
-      return: "odd"
+      return "odd"
 
 # Ask the user to enter a whole number.
 number = int(input("Enter a whole number: "))
