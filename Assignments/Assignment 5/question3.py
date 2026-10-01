@@ -9,7 +9,7 @@ def check_number(number):
 # Check if the result is the same as the original number.
   if half == int(half):
       return "even"
-    else:
+  else:
       return: "odd"
 
 # Ask the user to enter a whole number.
